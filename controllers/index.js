@@ -2,4 +2,8 @@ const getName = (req, res) =>{
     res.send('Christian Calla');
 };
 
-module.exports = { getName };
+const awesomeperson = (req, res) =>{
+    res.json('awesome person');
+};
+
+module.exports = { awesomeperson, getName };
