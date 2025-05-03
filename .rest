@@ -9,5 +9,23 @@ GET http://localhost:3000/awesome HTTP/1.1
 ###Deploy
 GET https://cse341-mark.onrender.com/contacts
 
+###
+GET https://cse341-mark.onrender.com/contacts/68154c5cc63e2e9a02bb432c
+
+####
+GET https://cse341-mark.onrender.com/contacts/68168aea47b213282fd55879
+
+###
+GET https://cse341-mark.onrender.com/contacts/68168b0347b213282fd5587a
+
 ###LocalHost
 GET http://localhost:8080/contacts
+
+###
+GET http://localhost:8080/contacts/68154c5cc63e2e9a02bb432c
+
+###
+GET http://localhost:8080/contacts/68168aea47b213282fd55879
+
+###
+GET http://localhost:8080/contacts/68168b0347b213282fd5587a
