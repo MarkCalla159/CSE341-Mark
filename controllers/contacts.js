@@ -29,9 +29,9 @@ const getSingle = async (req, res, next) => {
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     if (lists.length > 0) {
-        res.status(200).json(lists[0]); // Si se encuentra el contacto, se devuelve
+        res.status(200).json(lists[0]); 
       } else {
-        res.status(404).json({ message: "Contacto no encontrado" }); // Si no se encuentra, error 404
+        res.status(404).json({ message: "Contacto no encontrado" });
       }
   });
 };
