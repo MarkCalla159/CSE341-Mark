@@ -1,23 +1,23 @@
 {
-    "contact1": {
-      "firstName": "Estefany",
-      "lastName": "Calla",
-      "email": "tef2009@test.com",
-      "favoriteColor": "violet",
-      "birthday": "20/09/97"
-    },
-    "contact2": {
-      "firstName": "Christian",
-      "lastName": "Calla",
-      "email": "chris07@test.com",
-      "favoriteColor": "red",
-      "birthday": "30/09/99"
-    },
-    "contact3": {
-      "firstName": "Vilma",
-      "lastName": "Vargaya",
-      "email": "vilmvar@test.com",
-      "favoriteColor": "blue",
-      "birthday": "15/01/73"
-    }
+  "contact1": {
+    "firstName": "Estefany",
+    "lastName": "Calla",
+    "email": "tef2009@test.com",
+    "favoriteColor": "violet",
+    "birthday": "20/09/97"
+  },
+  "contact2": {
+    "firstName": "Christian",
+    "lastName": "Calla",
+    "email": "chris07@test.com",
+    "favoriteColor": "red",
+    "birthday": "30/09/99"
+  },
+  "contact3": {
+    "firstName": "Vilma",
+    "lastName": "Vargaya",
+    "email": "vilmvar@test.com",
+    "favoriteColor": "blue",
+    "birthday": "15/01/73"
   }
+}

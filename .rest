@@ -29,3 +29,56 @@ GET http://localhost:8080/contacts/68168aea47b213282fd55879
 
 ###
 GET http://localhost:8080/contacts/68168b0347b213282fd5587a
+
+###Create New Contact/LocalHost need a space between content and json
+POST http://localhost:8080/contacts 
+content-type:application/json
+
+{ 
+    "firstName" :"Misael",
+    "lastName" :"Calla",
+    "email" :"misaelC@test.com",
+    "favoriteColor" :"Red",
+    "birthday" :"12/23/2005" 
+}
+
+###Update Contact Info/LocalHost
+PUT http://localhost:8080/contacts/68168aea47b213282fd55879 
+content-type:application/json
+
+{ 
+    "firstName": "Christian Alexander",
+    "lastName": "Calla",
+    "email": "chris0718@test.com",
+    "favoriteColor": "Darkred",
+    "birthday": "30/09/99"
+}
+
+###Delete Contact/LocalHost
+DELETE http://localhost:8080/contacts/681faf703fa0a3effd8dcfbb HTTP/1.1
+
+###Create New Contact/Render - Deploy
+POST  https://cse341-mark.onrender.com/contacts
+content-type:application/json
+
+{ 
+    "firstName" :"Misael",
+    "lastName" :"Calla",
+    "email" :"misaelC@test.com",
+    "favoriteColor" :"Red",
+    "birthday" :"12/23/2005" 
+}
+
+###Update Contact Info/Render - Deploy
+PUT https://cse341-mark.onrender.com/contacts/68168aea47b213282fd55879 
+content-type:application/json
+
+{ 
+    "firstName": "Christian Alexander",
+    "lastName": "Calla",
+    "email": "chris0718@test.com",
+    "favoriteColor": "Darkred",
+    "birthday": "30/09/99"
+}
+###Delete Contact/LocalHost
+DELETE https://cse341-mark.onrender.com/contacts/681faf703fa0a3effd8dcfbb HTTP/1.1
