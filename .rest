@@ -55,7 +55,7 @@ content-type:application/json
 }
 
 ###Delete Contact/LocalHost
-DELETE http://localhost:8080/contacts/681faf703fa0a3effd8dcfbb HTTP/1.1
+DELETE http://localhost:8080/contacts/681fc134c8dc7457d9ae667a HTTP/1.1
 
 ###Create New Contact/Render - Deploy
 POST  https://cse341-mark.onrender.com/contacts
@@ -76,9 +76,9 @@ content-type:application/json
 { 
     "firstName": "Christian Alexander",
     "lastName": "Calla",
-    "email": "chris0718@test.com",
-    "favoriteColor": "Darkred",
+    "email": "chris07@test.com",
+    "favoriteColor": "Deep Blue",
     "birthday": "30/09/99"
 }
 ###Delete Contact/LocalHost
-DELETE https://cse341-mark.onrender.com/contacts/681faf703fa0a3effd8dcfbb HTTP/1.1
+DELETE https://cse341-mark.onrender.com/contacts/681fbee828c708ad089554c8 HTTP/1.1

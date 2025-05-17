@@ -4,7 +4,7 @@ const router = express.Router();
 
 //routes.get('/', baseController.getName);
 //routes.get('/awesome', baseController.awesomeperson);
-
+router.use('/', require('./swagger'));
 router.use('/contacts', require('./contacts'));
 
 module.exports = router;
